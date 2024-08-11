@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  color: white;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  flex-direction: column;
+}
+
+.container h2 {
+  font-size: 5rem;
+  margin: 35px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  font-size: 1rem;
+  color: white;
+  background: #8e2de2; 
+  font-family: 'Sansita Swashed', cursive;
+  background: -webkit-linear-gradient(to right, #8e2de2, #4a00e0); 
+  background: linear-gradient(to right, #8e2de2, #4a00e0); 
+  outline: none;
+  border: none;
+  cursor: pointer;
+  -webkit-box-reflect: below 5px linear-gradient(transparent, #0004);
+}
+
+button#clear-laps {
+  background: #e63d3d; 
+  background: -webkit-linear-gradient(to right, #e63d3d, #b92b5b); 
+  background: linear-gradient(to right, #e63d3d, #b92b5b); 
+}
+
+button#restart {
+  background: #4CAF50; 
+  background: -webkit-linear-gradient(to right, #4CAF50, #2E8B57); 
+  background: linear-gradient(to right, #4CAF50, #2E8B57); 
+}
+
+#laps {
+  margin-top: 20px;
+}
+
+#laps h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#lap-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lap-list li {
+  font-size: 1.2rem;
+  padding: 5px;
+  border-bottom: 1px solid #444;
+}
